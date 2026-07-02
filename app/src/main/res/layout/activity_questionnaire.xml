@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionnaireActivity"
+    android:background="#009999">
+
+    <LinearLayout
+        android:id="@+id/questionContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#009999"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/header_activity_questionnaire"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#1B1B1E"
+            android:paddingBottom="25dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_category_activity_questionnaire"
+            android:textColor="#1B1B1E"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/categorySelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/questionnaireQuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_question_activity_questionnaire"
+            android:paddingLeft="15dp"
+            android:textColor="#1B1B1E"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/questionSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_answer_activity_questionnaire"
+            android:textColor="#1B1B1E"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/answerSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/questionnaireSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_submit_button_activity_questionnaire" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

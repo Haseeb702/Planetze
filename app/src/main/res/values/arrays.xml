@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questionCategory">
+        <item>Location</item>
+        <item>Transportation</item>
+        <item>Food</item>
+        <item>Housing</item>
+        <item>Consumption</item>
+    </string-array>
+    <!-- Location -->
+    <string-array name="locationQuestions">
+        <item>Please specify your current location</item>
+    </string-array>
+    <string-array name="countryList">
+        <item>–</item>
+        <item>Afghanistan</item>
+        <item>Africa</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bonaire Sint Eustatius and Saba</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curacao</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Democratic Republic of Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Eswatini</item>
+        <item>Ethiopia</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia (country)</item>
+        <item>Moldova</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>North Macedonia</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten (Dutch part)</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <!-- Transportation -->
+    <string-array name="transportationQuestions">
+        <item>Do you own or regularly use a car?</item>
+        <item>What type of car do you drive?</item>
+        <item>How many kilometres/miles do you drive per year?</item>
+        <item>How often do you use public transportation (bus, train, subway, etc.)?</item>
+        <item>How much time do you spend on public transportation per week (bus, train, subway, etc.)?</item>
+        <item>How many short–haul flights (less than 1,500 km / 932 miles) have you taken in the past year?</item>
+        <item>How many long–haul flights (more than 1,500 km / 932 miles) have you taken in the past year?</item>
+    </string-array>
+    <string-array name="userOwnsCar">
+        <item>–</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="vehicleFuelType">
+        <item>–</item>
+        <item>Gasoline</item>
+        <item>Diesel</item>
+        <item>Hybrid</item>
+        <item>Electric</item>
+        <item>I don\'t know</item>
+    </string-array>
+    <string-array name="distanceDriven">
+        <item>–</item>
+        <item>Less than 5,000 km (3,000 miles)</item>
+        <item>5,000–10,000 km (3,000–6,000 miles)</item>
+        <item>10,000–15,000 km (6,000–9,000 miles)</item>
+        <item>15,000–20,000 km (9,000–12,000 miles)</item>
+        <item>20,000–25,000 km (12,000–15,000 miles)</item>
+        <item>More than 25,000 km (15,000 miles)</item>
+    </string-array>
+    <string-array name="publicTransportationFrequency">
+        <item>–</item>
+        <item>Never</item>
+        <item>Occasionally (1–2 times/week)</item>
+        <item>Frequently (3–4 times/week)</item>
+        <item>Always (5+ times/week)</item>
+    </string-array>
+    <string-array name="publicTransportationTime">
+        <item>–</item>
+        <item>Under 1 hour</item>
+        <item>1–3 hours</item>
+        <item>3–5 hours</item>
+        <item>5–10 hours</item>
+        <item>More than 10 hours</item>
+    </string-array>
+    <string-array name="shortFlightFrequency">
+        <item>–</item>
+        <item>None</item>
+        <item>1–2 flights</item>
+        <item>3–5 flights</item>
+        <item>6–10 flights</item>
+        <item>More than 10 flights</item>
+    </string-array>
+    <string-array name="longFlightFrequency">
+        <item>–</item>
+        <item>None</item>
+        <item>1–2 flights</item>
+        <item>3–5 flights</item>
+        <item>6–10 flights</item>
+        <item>More than 10 flights</item>
+    </string-array>
+
+    <!-- Food -->
+    <string-array name="foodQuestions">
+        <item>What best describes your diet?</item>
+        <item>How often do you eat beef?</item>
+        <item>How often do you eat pork?</item>
+        <item>How often do you eat chicken?</item>
+        <item>How often do you eat fish/seafood?</item>
+        <item>How often do you waste food or throw away leftovers?</item>
+    </string-array>
+    <string-array name="dietType">
+        <item>–</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+        <item>Pescatarian (fish/seafood)</item>
+        <item>Meat-based (eat all types of animal products)</item>
+    </string-array>
+    <!-- beef, pork, chicken, and seafood -->
+    <string-array name="meatFrequency">
+        <item>–</item>
+        <item>Daily</item>
+        <item>Frequently (3–5 times/week)</item>
+        <item>Occasionally (1–2 times/week)</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="foodWasteFrequency">
+        <item>–</item>
+        <item>Never</item>
+        <item>Rarely</item>
+        <item>Occasionally</item>
+        <item>Frequently</item>
+    </string-array>
+
+    <!-- Housing -->
+    <string-array name="housingQuestions">
+        <item>What type of home do you live in?</item>
+        <item>How many people live in your household?</item>
+        <item>What is the size of your home?</item>
+        <item>What type of energy do you use to heat your home?</item>
+        <item>What is your average monthly electricity bill?</item>
+        <item>What type of energy do you use to heat water in your home?</item>
+        <item>Do you use any renewable energy sources for electricity or heating (e.g., solar, wind, etc.)?</item>
+    </string-array>
+    <string-array name="housingType">
+        <item>–</item>
+        <item>Detached house</item>
+        <item>Semi–detached house</item>
+        <item>Townhouse</item>
+        <item>Condo/Apartment</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="peopleInHousehold">
+        <item>–</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3–4</item>
+        <item>5 or more</item>
+    </string-array>
+    <string-array name="housingSize">
+        <item>–</item>
+        <item>Under 1000 sq. ft.</item>
+        <item>1000–2000 sq. ft.</item>
+        <item>Over 2000 sq. ft.</item>
+    </string-array>
+    <string-array name="housingHeating">
+        <item>–</item>
+        <item>Natural Gas</item>
+        <item>Electricity</item>
+        <item>Oil</item>
+        <item>Propane</item>
+        <item>Wood</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="monthlyElectricityBill">
+        <item>–</item>
+        <item>Under $50</item>
+        <item>$50–$100</item>
+        <item>$100–$150</item>
+        <item>$150–$200</item>
+        <item>Over $200</item>
+    </string-array>
+    <string-array name="waterHeating">
+        <item>–</item>
+        <item>Natural Gas</item>
+        <item>Electricity</item>
+        <item>Oil</item>
+        <item>Propane</item>
+        <item>Solar</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="renewableEnergyUse">
+        <item>–</item>
+        <item>Yes, primarily (more than 50% of energy use)</item>
+        <item>Yes, partially (less than 50% of energy use)</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- Consumption -->
+    <string-array name="consumptionQuestions">
+        <item>How often do you buy new clothes?</item>
+        <item>Do you buy second–hand or eco–friendly products?</item>
+        <item>How many electronic devices (phones, laptops, etc.) have you purchased in the past year?</item>
+        <item>How often do you recycle?</item>
+    </string-array>
+    <string-array name="newClothesFrequency">
+        <item>–</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Annually</item>
+        <item>Rarely</item>
+        <!-- No option for not buying new clothes -->
+    </string-array>
+    <string-array name="ecoFriendlyProductsFrequency">
+        <item>–</item>
+        <item>Yes, regularly</item>
+        <item>Yes, occasionally</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="electronicsFrequency">
+        <item>–</item>
+        <item>None</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3 or more</item>
+    </string-array>
+    <string-array name="recyclingFrequency">
+        <item>–</item>
+        <item>Never</item>
+        <item>Occasionally</item>
+        <item>Frequently</item>
+        <item>Always</item>
+    </string-array>
+</resources>

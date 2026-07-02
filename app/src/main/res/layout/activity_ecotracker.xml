@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_container2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EcoTrackerActivity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+            <!-- Total CO₂ Emissions Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:padding="16dp"
+                android:elevation="4dp"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CO₂ Emissions Summary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/textViewTotalEmissions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total CO₂e: 0.0 kg"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/textTransportationEmissions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transportation CO₂e: 0.0 kg"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/textFoodConsumption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Food CO₂e: 0.0 kg"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/textShoppingConsumption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Consumption CO₂e: 0.0 kg"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/ecotracker_background"
+                android:elevation="4dp">
+
+                <!-- Calendar Icon -->
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/icon_calendar"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Calendar Icon" />
+
+                <!-- TextView for Date -->
+                <TextView
+                    android:id="@+id/text_selected_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select a date"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#333"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- part 1: transportation  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="1. Transportation Activities"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <!-- drive personal vehicle  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Daily distance driven (in kilometers)?"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/input_kilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter kilometers"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+            <!-- public transport  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Type of Public Transportation?"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_transport_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/input_transportation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter time spent (hours)"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+            <!-- cycling/walking  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance Cycling or Walking"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/input_distance_walked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Distance (km)"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="16dp" />
+            <!-- flight  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Flight details"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/input_flights_taken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number of flights"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+
+            <Spinner
+                android:id="@+id/spinner_flight_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- part 2: transportation  -->
+
+            <!-- Meal  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="2. Food Consumption Activities"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meal"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_food_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/input_servings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number of Servings"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+
+            <!-- part 3: consumption and shopping activities -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="3. Consumption and Shopping Activities"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- buy new clothes  -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy New Clothes"
+                android:textSize="16sp"
+                android:layout_marginBottom="2dp" />
+
+
+            <EditText
+                android:id="@+id/input_clothes_purchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number of Clothes Purchased"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+
+            <!-- buy electronics -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Electronics"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_electronic_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/input_devices_purchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number of devices Purchased"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+            <!-- other purchase -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Purchase"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_purchase_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/input_item_purchased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Number of Items Purchased"
+                android:inputType="number"
+                android:layout_marginBottom="16dp" />
+            <!-- energy bill -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy Bill"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <Spinner
+                android:id="@+id/spinner_bill_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/input_bill_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Bill amount"
+                android:inputType="number"
+                android:layout_marginBottom="4dp" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="1in"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update Emissions"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete Emissions"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_menu" />
+</FrameLayout>

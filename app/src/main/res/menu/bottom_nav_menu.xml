@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tracker"
+        android:icon="@drawable/home"
+        android:title="Eco Tracker" />
+    <item
+        android:id="@+id/gauge"
+        android:icon="@drawable/chart_bar"
+        android:title="Eco Gauge" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/exit_to_app"
+        android:title="Logout" />
+</menu>
